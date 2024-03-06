@@ -1,0 +1,155 @@
+header {
+    background-color: white; /* Green color */
+    color: black;
+    padding: 20px; /* Adjust the padding as needed */
+    text-align: center;
+    display: flex;
+    justify-content: space-between; /* Align content at both ends */
+    align-items: center; /* Vertically center content */
+    /* Add CSS for the logo placeholder */
+    .logo {
+        width: 100px; /* Adjust the width as needed */
+        height: auto; /* Maintain aspect ratio */
+    }
+}
+
+/* Add CSS for the button placeholder */
+#header-button {
+    background-color: #00ae65; /* Green color for the button */
+    color: white;
+    padding: 10px 20px; /* Adjust padding as needed */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#searchWidgetTrigger {
+    background-color: #00ae65; /* Green color for the button */
+    color: white;
+    padding: 10px 20px; /* Adjust padding as needed */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+body {
+    background: #eceff1;
+    color: rgba(0, 0, 0, 0.87);
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#message {
+    background: white;
+    max-width: 360px;
+    margin: 100px auto 16px;
+    padding: 32px 24px;
+    border-radius: 3px;
+}
+
+#message h2 {
+    color: #ffa100;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0 0 8px;
+}
+
+#message h1 {
+    font-size: 22px;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.6);
+    margin: 0 0 16px;
+}
+
+#message p {
+    line-height: 140%;
+    margin: 16px 0 24px;
+    font-size: 14px;
+}
+
+#message a {
+    display: block;
+    text-align: center;
+    background: #039be5;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    padding: 16px;
+    border-radius: 4px;
+}
+
+#message a {
+    display: block;
+    text-align: center;
+    background: #039be5;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    padding: 16px;
+    border-radius: 4px;
+}
+
+#message,
+#message a {
+    box-shadow:
+        0 1px 3px rgba(0, 0, 0, 0.12),
+        0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+#load {
+    color: rgba(0, 0, 0, 0.4);
+    text-align: center;
+    font-size: 13px;
+}
+
+df-messenger {
+    z-index: 999;
+    position: fixed;
+    bottom: 45px;
+    right: 45px;
+    --df-messenger-primary-color: #5B1023;
+    --df-messenger-titlebar-background-color: #ffffff;
+    --df-messenger-titlebar-font-color: #5B1023;
+    --df-messenger-send-icon-color-hover: #881330;
+    --df-messenger-titlebar-icon-width: 60px;
+    --df-messenger-chat-border-radius: 24px;
+    --df-messenger-message-user-background-color: #881330;
+    --df-messenger-message-user-font-color: #ffffff;
+    --df-messenger-chat-window-box-shadow: #c9c9c9 2px 3px 8px;
+
+}
+
+// RESPOSNIVE ===================================================
+
+@media (max-width: 600px) {
+    body,
+    #message {
+        margin-top: 0;
+        background: white;
+        box-shadow: none;
+    }
+}
+
+@media (max-width: 991.98px) {
+    df-messenger {
+        z-index: 999;
+        position: fixed;
+        bottom: 40px;
+        right: 20px;
+        --df-messenger-primary-color: #00484d;
+        --df-messenger-titlebar-background-color: #ffffff;
+        --df-messenger-titlebar-font-color: #00484d;
+        --df-messenger-send-icon-color-hover: #00ae65;
+        --df-messenger-titlebar-icon-width: 60px;
+        --df-messenger-chat-border-radius: 24px;
+        --df-messenger-message-user-background-color: #00484d;
+        --df-messenger-message-user-font-color: #ffffff;
+        --df-messenger-chat-window-box-shadow: #c9c9c9 2px 3px 8px;
+
+    }
+}
+
+
