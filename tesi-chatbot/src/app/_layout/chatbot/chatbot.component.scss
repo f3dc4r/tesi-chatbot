@@ -42,13 +42,6 @@ body {
     padding: 0;
 }
 
-#chatbot {
-    .title {
-        font-size: 1.8rem;
-        font-weight: 600;
-    }
-}
-
 #message {
     background: white;
     max-width: 360px;
@@ -121,7 +114,7 @@ df-messenger {
     --df-messenger-titlebar-background-color: #ffffff;
     --df-messenger-titlebar-font-color: #5B1023;
     --df-messenger-send-icon-color-hover: #881330;
-    --df-messenger-titlebar-icon-width: 60px;
+    --df-messenger-titlebar-icon-width: 50px;
     --df-messenger-chat-border-radius: 24px;
     --df-messenger-message-user-background-color: #881330;
     --df-messenger-message-user-font-color: #ffffff;

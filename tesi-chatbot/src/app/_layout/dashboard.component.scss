@@ -1,0 +1,30 @@
+#dashboard {
+  .title {
+    font-size: 1.8rem;
+    font-weight: 600;
+  }
+
+  .highlight {
+    &:hover {
+      cursor: pointer;
+      background-color: #e9e6e6;
+    }
+  }
+}
+
+.toast-message {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  border-radius: 10px;
+  background-color: rgba(255, 165, 0, 0.9);
+  font-size: 0.975rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+  margin-left: -150px;
+  width: 300px;
+  padding: 20px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  text-align: center;
+}

@@ -1,6 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { Component, CUSTOM_ELEMENTS_SCHEMA, OnInit } from '@angular/core';
 
+
 @Component({
   selector: 'app-chatbot',
   standalone: true,
@@ -10,7 +11,6 @@ import { Component, CUSTOM_ELEMENTS_SCHEMA, OnInit } from '@angular/core';
   schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
 export class ChatbotComponent implements OnInit {
-
 
   constructor() {
   }
@@ -32,5 +32,4 @@ export class ChatbotComponent implements OnInit {
     script.type = 'text/javascript';
     document.getElementsByTagName('head')[0].appendChild(script);
   }
-
 }

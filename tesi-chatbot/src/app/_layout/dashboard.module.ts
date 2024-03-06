@@ -5,6 +5,8 @@ import { DashboardRoutingModule } from './dashboard-routing.module';
 import { DashboardComponent } from './dashboard.component';
 import { HeaderComponent } from '../_components/header/header.component';
 import { ChatbotComponent } from './chatbot/chatbot.component';
+import { NgbToastModule } from '@ng-bootstrap/ng-bootstrap';
+import { ClipboardModule } from '@angular/cdk/clipboard';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { ChatbotComponent } from './chatbot/chatbot.component';
   imports: [
     CommonModule,
     DashboardRoutingModule,
-    ChatbotComponent
-  ]
+    ChatbotComponent,
+    NgbToastModule,
+    ClipboardModule
+  ],
 })
 export class DashboardModule { }
