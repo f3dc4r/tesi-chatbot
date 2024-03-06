@@ -42,6 +42,13 @@ body {
     padding: 0;
 }
 
+#chatbot {
+    .title {
+        font-size: 1.8rem;
+        font-weight: 600;
+    }
+}
+
 #message {
     background: white;
     max-width: 360px;

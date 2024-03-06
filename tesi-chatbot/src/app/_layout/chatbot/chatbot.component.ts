@@ -12,13 +12,25 @@ import { Component, CUSTOM_ELEMENTS_SCHEMA, OnInit } from '@angular/core';
 export class ChatbotComponent implements OnInit {
 
 
-  constructor() { }
+  constructor() {
+  }
 
   ngOnInit(): void {
     const script = document.createElement('script');
     script.async = true;
     script.src = 'https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/df-messenger.js';
+    script.type = 'text/javascript';
     document.head.appendChild(script);
+
+    this.loadScript();
+
+  }
+
+  loadScript() {
+    const script = document.createElement('script');
+    script.src = 'assets/reset-messenger.js';
+    script.type = 'text/javascript';
+    document.getElementsByTagName('head')[0].appendChild(script);
   }
 
 }
