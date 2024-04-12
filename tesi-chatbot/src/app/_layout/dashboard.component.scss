@@ -10,6 +10,16 @@
       background-color: #e9e6e6;
     }
   }
+
+  .img-fluid {
+    width: 100%;
+    height: auto;
+
+    &.signature {
+      width: 50%;
+      height: auto;
+    }
+  }
 }
 
 .toast-message {
